@@ -20,15 +20,13 @@
                     <div class="navbar-nav ms-auto">
                         <a href="/" class="nav-item nav-link active">Home</a>
                         <a href="{% url 'mainweb:abouts-us' %}" class="nav-item nav-link">About</a>
-                        <a href="" class="nav-item nav-link">Products</a>
-                        <a href="" class="nav-item nav-link">Store</a>
+                        <a href="{% url 'mainweb:products' %}" class="nav-item nav-link">Products</a>
+                        
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light rounded-0 m-0">
                                 <a href="feature.html" class="dropdown-item">Features</a>
                                 <a href="blog.html" class="dropdown-item">Blog Article</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>

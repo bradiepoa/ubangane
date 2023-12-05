@@ -10,6 +10,12 @@ def About(request):
     
     return render(request,"mainweb/aboutus.html")
 
+
+def Products(request):
+    
+    return render(request,"mainweb/products.html")
+
+
 def Contact(request):
     
     return render(request,"mainweb/contactus.html")
