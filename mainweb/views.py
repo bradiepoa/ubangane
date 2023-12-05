@@ -16,6 +16,11 @@ def Products(request):
     return render(request,"mainweb/products.html")
 
 
+def Blog(request):
+    
+    return render(request,"mainweb/news.html")
+
+
 def Contact(request):
     
     return render(request,"mainweb/contactus.html")
